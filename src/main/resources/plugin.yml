@@ -1,0 +1,16 @@
+name: FarmKeeper
+version: 1.0.0
+main: mc.nuoyuya.top.farmkeeper.FarmKeeperPlugin
+api-version: 1.16
+description: 耕地保护插件，防止玩家踩坏耕地
+author: YourName
+commands:
+  farmkeeper:
+    description: 管理耕地保护插件
+    usage: /farmkeeper <on|off|text>
+    permission: farmkeeper.admin
+    permission-message: 你没有权限使用此命令
+permissions:
+  farmkeeper.admin:
+    description: 允许管理耕地保护插件
+    default: op
